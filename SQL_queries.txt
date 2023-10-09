@@ -1,0 +1,42 @@
+INSERT INTO `country` (`country_id`, `country_name`) VALUES
+(1, 'USA'),
+(2, 'Canada'),
+(3, 'Australia'),
+(4, 'India');
+
+
+
+INSERT INTO `state` (`state_id`, `country_id`, `state_name`) VALUES
+(1, 1, 'New York'),
+(2, 1, 'Alabama'),
+(3, 1, 'California'),
+(4, 2, 'Ontario'),
+(5, 2, 'British Columbia'),
+(6, 3, 'New South Wales'),
+(7, 3, 'Queensland'),
+(8, 4, 'Karnataka'),
+(9, 4, 'Telangana');
+
+
+INSERT INTO `city` (`city_id`, `state_id`, `city_name`) VALUES
+(1, 1, 'New York city'),
+(2, 1, 'Buffalo'),
+(3, 1, 'Albany'),
+(4, 2, 'Birmingham'),
+(5, 2, 'Montgomery'),
+(6, 2, 'Huntsville'),
+(7, 3, 'Los Angeles'),
+(8, 3, 'San Francisco'),
+(9, 3, 'San Diego'),
+(10, 4, 'Toronto'),
+(11, 4, 'Ottawa'),
+(12, 5, 'Vancouver'),
+(13, 5, 'Victoria'),
+(14, 6, 'Sydney'),
+(15, 6, 'Newcastle'),
+(16, 7, 'City of Brisbane'),
+(17, 7, 'Gold Coast'),
+(18, 8, 'Bangalore'),
+(19, 8, 'Mangalore'),
+(20, 9, 'Hydrabad'),
+(21, 9, 'Warangal');
